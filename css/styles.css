@@ -157,3 +157,26 @@ h2{
   padding: 10px;
   padding-bottom: 10px;
 }
+.Hover:hover{
+  color:red;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 40px); /* Adjust the width as needed */
+  gap: 5px; /* Adjust the gap between icons */
+  justify-content: center;
+}
+
+.grid-child {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  /* Your other styles here */
+}
+
+
+
+
+
+
+
